@@ -1,0 +1,58 @@
+/* Sección de equipo */
+.teams {
+    margin-top: 40px;
+    width: 50%;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilos para cada tarjeta de equipo */
+.team {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro con transparencia */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+/* Efecto al pasar el mouse sobre cada tarjeta */
+.team:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo para el nombre (h5) del miembro del equipo */
+.team h5 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la descripción (p) debajo del nombre */
+.team p {
+    color: #d3d3d3; /* Gris más suave */
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el rol (span) */
+.team span {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #003366; /* Azul profundo */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto cuando se pasa el mouse sobre el span (solo visual) */
+.team span:hover {
+    background-color: #002244; /* Azul más oscuro */
+}
